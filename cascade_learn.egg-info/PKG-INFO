@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: deep-forest
+Version: 0.0.1.dev0
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: joblib
+Requires-Dist: scikit-learn
+Requires-Dist: imbalanced-learn

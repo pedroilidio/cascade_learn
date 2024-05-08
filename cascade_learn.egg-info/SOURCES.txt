@@ -1,0 +1,17 @@
+LICENSE
+setup.py
+deep_forest/__init__.py
+deep_forest/cascade.py
+deep_forest/deep_forest.py
+deep_forest/deep_forest_v2.py
+deep_forest/estimator_adapters.py
+deep_forest/tree_embedder.py
+deep_forest/weak_labels.py
+deep_forest.egg-info/PKG-INFO
+deep_forest.egg-info/SOURCES.txt
+deep_forest.egg-info/dependency_links.txt
+deep_forest.egg-info/requires.txt
+deep_forest.egg-info/top_level.txt
+tests/test_cascade.py
+tests/test_tree_embedder.py
+tests/test_weak_labels.py
