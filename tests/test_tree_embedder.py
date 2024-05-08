@@ -10,7 +10,7 @@ from sklearn.tree import (
 from sklearn.ensemble import ExtraTreesClassifier
 import pytest
 
-from deep_forest.tree_embedder import (
+from cascade_learn.tree_embedder import (
     embed_with_tree,
     TreeEmbedder,
     ForestEmbedder,

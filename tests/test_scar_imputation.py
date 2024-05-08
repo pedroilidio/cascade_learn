@@ -3,8 +3,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import make_classification
 import sklearn.preprocessing
 
-from deep_forest import weak_labels
-from deep_forest import tice
+from cascade_learn import weak_labels
+from cascade_learn import tice
 
 @pytest.fixture
 def data():

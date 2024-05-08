@@ -4,7 +4,7 @@ from sklearn.base import clone
 from sklearn.datasets import make_classification
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.metrics import accuracy_score
-from deep_forest.weak_labels import WeakLabelImputer
+from cascade_learn.weak_labels import WeakLabelImputer
 
 
 @pytest.fixture

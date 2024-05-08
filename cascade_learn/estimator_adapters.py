@@ -14,7 +14,7 @@ from sklearn.utils.metaestimators import _BaseComposition
 from sklearn.utils._param_validation import HasMethods, StrOptions
 from imblearn.base import BaseSampler
 
-from deep_forest.tree_embedder import BaseTreeEmbedder, _hstack
+from cascade_learn.tree_embedder import BaseTreeEmbedder, _hstack
 
 
 class RegressorAsBinaryClassifier(_BaseComposition, ClassifierMixin):

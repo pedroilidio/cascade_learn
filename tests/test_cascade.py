@@ -9,10 +9,10 @@ from sklearn.tree import DecisionTreeClassifier, ExtraTreeClassifier
 from sklearn.ensemble import ExtraTreesClassifier
 from imblearn.pipeline import Pipeline
 
-from deep_forest.cascade import Cascade, AlternatingLevel, SequentialLevel
-from deep_forest.tree_embedder import TreeEmbedder
-from deep_forest.estimator_adapters import ProbaTransformer
-from deep_forest.weak_labels import WeakLabelImputer
+from cascade_learn.cascade import Cascade, AlternatingLevel, SequentialLevel
+from cascade_learn.tree_embedder import TreeEmbedder
+from cascade_learn.estimator_adapters import ProbaTransformer
+from cascade_learn.weak_labels import WeakLabelImputer
 
 
 @pytest.fixture

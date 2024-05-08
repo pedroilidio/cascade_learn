@@ -3,7 +3,7 @@ import numpy as np
 import sklearn
 import sklearn.datasets
 from sklearn.tree import DecisionTreeClassifier
-from deep_forest.tice import TIcEImputer
+from cascade_learn.tice import TIcEImputer
 
 from test_weak_labels import (
     binary_classification_data,
